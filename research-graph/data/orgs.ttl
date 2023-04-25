@@ -1,0 +1,156 @@
+PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX democat: <https://data.idnau.org/pid/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/org/caepr>
+    a sdo:Organization ;
+    sdo:alternateName "CAEPR" ;
+    sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cass>
+    a sdo:Organization ;
+    sdo:alternateName "CASS" ;
+    sdo:name "ANU College of Arts & Social Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cos>
+    a sdo:Organization ;
+    sdo:alternateName "CoS" ;
+    sdo:name "ANU College of Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/fses>
+    a sdo:Organization ;
+    sdo:alternateName "FSES" ;
+    sdo:name "Fenner School of Environment & Science" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
+    sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/ncis>
+    a sdo:Organization ;
+    sdo:alternateName "NCIS" ;
+    sdo:name "ANU National Centre for Indigenous Studies" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/anu>
+    a sdo:Organization ;
+    sdo:alternateName "ANU" ;
+    sdo:name "Australian National University" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/und>
+    a sdo:Organization ;
+    sdo:alternateName "Notre Dame" ;
+    sdo:name "University of Notre Dame" ;
+    sdo:url "https://www.notredame.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/nulungu>
+    a sdo:Organization ;
+    sdo:name "Nulungu Research Institute" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/und> ;
+    sdo:url "https://www.notredame.edu.au/research/nulungu/home"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/kimberleyinstitute>
+    a sdo:Organization ;
+    sdo:name "Kimberley Institute" ;
+    sdo:url "https://www.kimberleyinstitute.org.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/yawuru>
+    a sdo:Organization ;
+    sdo:name "Yawuru" ;
+    sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/dod>
+    a sdo:Organization ;
+    sdo:name "Department of Defence" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/dod>
+    a sdo:Organization ;
+    sdo:name "Department of Defence" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/awm>
+    a sdo:Organization ;
+    sdo:name "Australian War Memorial" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.awm.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/dva>
+    a sdo:Organization ;
+    sdo:name "Department of Veterans' Affairs" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    sdo:url "https://www.dva.gov.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/coap>
+    a sdo:Organization ;
+    sdo:alternateName "COAP" ;
+    sdo:name "ANU College of Asia and the Pacific" ;
+    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    sdo:url "https://asiapacific.anu.edu.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/alfant>
+    a sdo:Organization ;
+    sdo:name "Arnhem Land Fire Abatement Ltd" ;
+    sdo:url "https://www.alfant.com.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/knp>
+    a sdo:Organization ;
+    sdo:name "Kakadu Native Plants Pty Ltd" ;
+    sdo:identifier "37 125 747 140"^^adb:abn ;
+.
+
+<https://data.idnau.org/pid/org/nailsa>
+    a sdo:Organization ;
+    sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
+    sdo:identifier "80 149 061 174"^^adb:abn ;
+    sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cribb>
+    a sdo:Organization ;
+    sdo:name "Julian Cribb & Associates" ;
+    sdo:identifier "68 082 652 471"^^adb:abn ;
+    sdo:url "https://www.juliancribb.net"^^xsd:anyURI ;
+.
+
+<https://data.idnau.org/pid/org/cnrs>
+    a sdo:Organization ;
+    sdo:name "French National Centre for Scientific Research" ;
+    sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
+    sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
+    sdo:identifier "https://ror.org/02feahw73"^^democat:ror ;
+.
+
+
+
+
+
+
+
+
