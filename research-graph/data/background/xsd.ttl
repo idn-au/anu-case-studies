@@ -1,0 +1,14 @@
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+xsd:anyURI
+    sdo:name "URL" ;
+.
+
+xsd:date
+    sdo:name "date" ;
+.
+
+xsd:gYear
+    sdo:name "year" ;
+.

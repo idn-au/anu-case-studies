@@ -1,0 +1,46 @@
+PREFIX sdo: <https://schema.org/>
+
+sdo:alternateName
+    sdo:name "alternate name" ;
+.
+
+sdo:author
+    sdo:name "author" ;
+.
+
+sdo:dateCreated
+    sdo:name "date created" ;
+.
+
+sdo:endDate
+    sdo:name "end date" ;
+.
+
+sdo:honorificTitle
+    sdo:name "honorific title" ;
+.
+
+sdo:identifier
+    sdo:name "identifier" ;
+.
+
+sdo:memberOf
+    sdo:name "member of" ;
+.
+
+sdo:name
+    sdo:name "name" ;
+.
+
+sdo:parentOrganization
+    sdo:name "parent organization" ;
+.
+
+sdo:startDate
+    sdo:name "start date" ;
+.
+
+sdo:url
+    sdo:name "URL" ;
+.
+

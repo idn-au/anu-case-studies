@@ -1,0 +1,95 @@
+PREFIX idnroles: <https://data.idnau.org/pid/vocab/idn-role-codes/>
+PREFIX isoroles: <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/>
+PREFIX sdo: <https://schema.org/>
+
+isoroles:author
+    sdo:name "author" ;
+.
+
+isoroles:coAuthor
+    sdo:name "cp-author" ;
+.
+
+isoroles:collaborator
+    sdo:name "collaborator" ;
+.
+
+isoroles:contributor
+    sdo:name "contributor" ;
+.
+
+isoroles:custodian
+    sdo:name "custodian" ;
+.
+
+isoroles:distributor
+    sdo:name "distributor" ;
+.
+
+isoroles:editor
+    sdo:name "editor" ;
+.
+
+isoroles:funder
+    sdo:name "funder" ;
+.
+
+isoroles:mediator
+    sdo:name "mediator" ;
+.
+
+isoroles:originator
+    sdo:name "originator" ;
+.
+
+isoroles:owner
+    sdo:name "owner" ;
+.
+
+isoroles:pointOfContact
+    sdo:name "point of contact" ;
+.
+
+isoroles:principalInvestigator
+    sdo:name "principal investigator" ;
+.
+
+isoroles:processor
+    sdo:name "processor" ;
+.
+
+isoroles:publisher
+    sdo:name "publisher" ;
+.
+
+isoroles:resourceProvider
+    sdo:name "resource provider" ;
+.
+
+isoroles:rightsHolder
+    sdo:name "rights holder" ;
+.
+
+isoroles:sponsor
+    sdo:name "sponsor" ;
+.
+
+isoroles:stakeholder
+    sdo:name "stakeholder" ;
+.
+
+isoroles:user
+    sdo:name "user" ;
+.
+
+idnroles:supervisor
+    sdo:name "supervisor" ;
+.
+
+idnroles:subjectAgent
+    sdo:name "subject agent" ;
+.
+
+idnroles:subjectAgentRepresentative
+    sdo:name "subject agentR representative" ;
+.

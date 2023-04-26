@@ -1,0 +1,14 @@
+PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX sdo: <https://schema.org/>
+
+adb:abn
+    sdo:name "ABN" ;
+.
+
+adb:doi
+    sdo:name "DOI" ;
+.
+
+adb:ror
+    sdo:name "ROR" ;
+.

@@ -1,5 +1,4 @@
 PREFIX adb: <https://data.idnau.org/pid/adb/>
-PREFIX democat: <https://data.idnau.org/pid/>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -144,7 +143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "French National Centre for Scientific Research" ;
     sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
     sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/02feahw73"^^democat:ror ;
+    sdo:identifier "https://ror.org/02feahw73"^^adb:ror ;
 .
 
 

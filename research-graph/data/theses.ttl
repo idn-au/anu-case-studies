@@ -15,7 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:author <https://example.org/pid/person/00025> ;
     sdo:dateCreated "1991"^^xsd:gYear ;
     sdo:name "The Yawuru language of West Kimberley : a meaning-based description" ;
-    sdo:qualifiedAttribution [
+    prov:qualifiedAttribution [
         prov:agent
             <https://example.org/pid/person/00026> ,
             <https://example.org/pid/person/00027> ;
@@ -28,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:author <https://example.org/pid/person/00003> ;
     sdo:dateCreated "2017-01-01"^^xsd:date ;
     sdo:name "In pursuit of culturally relevant indicators of Indigenous wellbeing" ;
-    sdo:qualifiedAttribution [
+    prov:qualifiedAttribution [
         prov:agent <https://example.org/pid/person/00028> ;
         prov:role idnroles:supervisor
     ] ;
@@ -39,7 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:author <https://example.org/pid/person/00004> ;
     sdo:dateCreated "2020-01-01"^^xsd:date ;
     sdo:name "Indigenous governance, GIS, and the context-driven modelling of values, concerns and seasonal uses of Country within the Yawuru estate" ;
-    sdo:qualifiedAttribution [
+    prov:qualifiedAttribution [
         prov:agent <https://example.org/pid/person/00002> ;
         prov:role idnroles:supervisor
     ] ;

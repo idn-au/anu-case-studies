@@ -1,4 +1,4 @@
-PREFIX democat: <https://data.idnau.org/pid/>
+PREFIX adb: <https://data.idnau.org/pid/adb/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -7,7 +7,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Article ;
     sdo:author <https://example.org/pid/person/00001> ;
     sdo:name "Statistics for Community Governance: The Yawuru Indigenous Population Survey of Broome" ;
-    sdo:created "2012"^^xsd:gYear ;
+    sdo:dateCreated "2012"^^xsd:gYear ;
     prov:wasGeneratedBy <http://example.org/project/00001> ;
 .
 
@@ -18,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://example.org/pid/person/00004> ,
         <https://example.org/pid/person/00012> ;
     sdo:name "Modelling collective Yawuru values along the foreshore of Roebuck Bay, Western Australia using fuzzy logic" ;
-    sdo:created "2016"^^xsd:gYear ;
+    sdo:dateCreated "2016"^^xsd:gYear ;
     prov:wasGeneratedBy <http://example.org/project/00002> ;
 .
 
@@ -28,14 +28,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://example.org/pid/person/00003> ,
         <https://example.org/pid/person/00006> ;
     sdo:name "Data sovereignty for the Yawuru in Western Australia" ;
-    sdo:created "2016"^^xsd:gYear ;
+    sdo:dateCreated "2016"^^xsd:gYear ;
 .
 
 <http://example.com/publication/00004>
     a sdo:Chapter ;
     sdo:author <https://example.org/pid/person/00003> ;
     sdo:name "Expressions of Indigenous rights and self-determination from the ground up: A Yawuru example" ;
-    sdo:created "2018"^^xsd:gYear ;
+    sdo:dateCreated "2018"^^xsd:gYear ;
 .
 
 <http://example.com/publication/00005>
@@ -53,7 +53,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://example.org/pid/person/00023> ,
         <https://example.org/pid/person/00024> ;
     sdo:name "Australia's north, Australia's future: A vision and strategies for sustainable economic, ecological and social prosperity in northern Australia" ;
-    sdo:created "2018"^^xsd:gYear ;
+    sdo:dateCreated "2018"^^xsd:gYear ;
 .
 
 <http://example.com/publication/00006>
@@ -62,14 +62,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://example.org/pid/person/00003> ,
         <https://example.org/pid/person/00006> ;
     sdo:name "Mabu liyan: the Yawuru way" ;
-    sdo:created "2019"^^xsd:gYear ;
+    sdo:dateCreated "2019"^^xsd:gYear ;
 .
 
 <http://example.com/publication/00007>
     a sdo:Article ;
     sdo:author <https://example.org/pid/person/00029> ;
-    sdo:identifier "10.22459/AH.22.2011.12"^^democat:doi ;
+    sdo:identifier "10.22459/AH.22.2011.12"^^adb:doi ;
     sdo:name "The meaning of 'One' in Broome, Western Australia: From Yawuru tribe to Rubibi Corporation" ;
-    sdo:created "1998"^^xsd:gYear ;
+    sdo:dateCreated "1998"^^xsd:gYear ;
 .
 
