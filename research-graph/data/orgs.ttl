@@ -140,10 +140,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:identifier "https://ror.org/02feahw73"^^adb:ror ;
 .
 
-
-
-
-
+<https://linked.data.gov.au/org/cdu>
+    a sdo:Organization ;
+    sdo:name "Charles Darwin University" ;
+    sdo:url "https://www.cdu.edu.au"^^xsd:anyURI ;
+.
 
 
 

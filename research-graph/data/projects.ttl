@@ -10,7 +10,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:generated <http://example.com/publication/00001> ;
     prov:qualifiedAssociation
         [
-            prov:agent <https://example.org/pid/agent/00001> ;
+            prov:agent <https://example.org/pid/person/00001> ;
             prov:hadRole isorole:principalInvestigator
         ] ,
         [
@@ -34,7 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:generated <http://example.com/publication/00002> ;
     prov:qualifiedAssociation
         [
-            prov:agent <https://example.org/pid/agent/00002> ;
+            prov:agent <https://example.org/pid/person/00002> ;
             prov:hadRole isorole:principalInvestigator
         ] ,
         [
@@ -54,7 +54,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Project ;
     prov:generated <http://example.com/publication/00003> ;
     prov:qualifiedAssociation [
-            prov:agent <https://example.org/pid/agent/00003> ;
+            prov:agent <https://example.org/pid/person/00003> ;
             prov:hadRole isorole:principalInvestigator
         ] ;
     sdo:endDate "2016"^^xsd:gYear ;
@@ -70,7 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             prov:hadRole idnrole:projectParticipant
         ] ,
         [
-            prov:agent <https://example.org/pid/agent/00007> ;
+            prov:agent <https://example.org/pid/person/00007> ;
             prov:hadRole isorole:principalInvestigator
         ] ,
         [
@@ -86,7 +86,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Project ;
     prov:qualifiedAssociation
         [
-            prov:agent <https://example.org/pid/agent/00008> ;
+            prov:agent <https://example.org/pid/person/00008> ;
             prov:hadRole isorole:principalInvestigator
         ] ,
         [
@@ -114,9 +114,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAssociation
         [
             prov:agent
-                <https://example.org/pid/agent/00009> ,
-                <https://example.org/pid/agent/00010> ,
-                <https://example.org/pid/agent/00011> ;
+                <https://example.org/pid/person/00009> ,
+                <https://example.org/pid/person/00010> ,
+                <https://example.org/pid/person/00011> ;
             prov:hadRole isorole:principalInvestigator
         ] ,
         [

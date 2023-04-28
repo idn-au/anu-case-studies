@@ -82,6 +82,10 @@ isoroles:user
     sdo:name "user" ;
 .
 
+idnroles:projectLead
+    sdo:name "project lead" ;
+.
+
 idnroles:projectParticipant
     sdo:name "project participant" ;
 .

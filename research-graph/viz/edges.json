@@ -1,0 +1,850 @@
+[
+    {
+        "from": "https://data.idnau.org/pid/org/caepr",
+        "to": "https://linked.data.gov.au/org/cass",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/ncis",
+        "to": "https://linked.data.gov.au/org/cass",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/cass",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/cos",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/coap",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/fses",
+        "to": "https://linked.data.gov.au/org/cos",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/anu",
+        "to": "https://linked.data.gov.au/org/au",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/dod",
+        "to": "https://linked.data.gov.au/org/au",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/awm",
+        "to": "https://linked.data.gov.au/org/au",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/dva",
+        "to": "https://linked.data.gov.au/org/au",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/nulungu",
+        "to": "https://linked.data.gov.au/org/und",
+        "label": "parent",
+        "arrows": {
+            "to": {
+                "type": "curve"
+            }
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00001",
+        "to": "https://data.idnau.org/pid/org/caepr",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "https://data.idnau.org/pid/org/caepr",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00007",
+        "to": "https://data.idnau.org/pid/org/caepr",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00009",
+        "to": "https://data.idnau.org/pid/org/caepr",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00010",
+        "to": "https://data.idnau.org/pid/org/caepr",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00002",
+        "to": "https://data.idnau.org/pid/org/fses",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00004",
+        "to": "https://data.idnau.org/pid/org/fses",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00005",
+        "to": "https://data.idnau.org/pid/org/fses",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00012",
+        "to": "https://data.idnau.org/pid/org/fses",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00006",
+        "to": "https://data.idnau.org/pid/org/yawuru",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00017",
+        "to": "https://data.idnau.org/pid/org/yawuru",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00008",
+        "to": "https://data.idnau.org/pid/org/ncis",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00011",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00025",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00026",
+        "to": "https://linked.data.gov.au/org/anu",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00013",
+        "to": "https://data.idnau.org/pid/org/coap",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00015",
+        "to": "https://data.idnau.org/pid/org/coap",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00027",
+        "to": "https://data.idnau.org/pid/org/coap",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00014",
+        "to": "https://linked.data.gov.au/org/cdu",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00019",
+        "to": "https://linked.data.gov.au/org/cdu",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00016",
+        "to": "https://data.idnau.org/pid/org/cass",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00028",
+        "to": "https://data.idnau.org/pid/org/cass",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00018",
+        "to": "https://data.idnau.org/pid/org/kimberleyinstitute",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00020",
+        "to": "https://data.idnau.org/pid/org/alfant",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00021",
+        "to": "https://data.idnau.org/pid/org/knp",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00022",
+        "to": "https://data.idnau.org/pid/org/nailsa",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00023",
+        "to": "https://data.idnau.org/pid/org/nailsa",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00024",
+        "to": "https://data.idnau.org/pid/org/cribb",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00029",
+        "to": "https://data.idnau.org/pid/org/cnrs",
+        "label": "member of",
+        "arrows": "to",
+        "color": {
+            "color": "green"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00005",
+        "to": "http://example.com/thesis/1234",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00025",
+        "to": "http://hdl.handle.net/1885/10851",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "http://hdl.handle.net/1885/132620",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "http://example.com/publication/00003",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "http://example.com/publication/00004",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "http://example.com/publication/00006",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00004",
+        "to": "http://hdl.handle.net/1885/206592",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00004",
+        "to": "http://example.com/publication/00002",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00001",
+        "to": "http://example.com/publication/00001",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00002",
+        "to": "http://example.com/publication/00002",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00012",
+        "to": "http://example.com/publication/00002",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00006",
+        "to": "http://example.com/publication/00003",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00006",
+        "to": "http://example.com/publication/00006",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00013",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00014",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00016",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00017",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00018",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00019",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00020",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00021",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00022",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00023",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00024",
+        "to": "http://example.com/publication/00005",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00029",
+        "to": "http://example.com/publication/00007",
+        "label": "author",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00001",
+        "to": "http://example.org/project/00001",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/aiatsis",
+        "to": "http://example.org/project/00001",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/caepr",
+        "to": "http://example.org/project/00001",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/kimberleyinstitute",
+        "to": "http://example.org/project/00001",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/yawuru",
+        "to": "http://example.org/project/00001",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00002",
+        "to": "http://example.org/project/00002",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/anu",
+        "to": "http://example.org/project/00002",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/anu",
+        "to": "http://example.org/project/00002",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00003",
+        "to": "http://example.org/project/00003",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/yawuru",
+        "to": "http://example.org/project/00004",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00007",
+        "to": "http://example.org/project/00004",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/caepr",
+        "to": "http://example.org/project/00004",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00008",
+        "to": "http://example.org/project/00005",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/anu",
+        "to": "http://example.org/project/00005",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/awm",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/dod",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/dva",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/acu",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/aiatsis",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/naa",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/unewcastle",
+        "to": "http://example.org/project/00005",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00009",
+        "to": "http://example.org/project/00006",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00010",
+        "to": "http://example.org/project/00006",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://example.org/pid/person/00011",
+        "to": "http://example.org/project/00006",
+        "label": "principal investigator",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/anu",
+        "to": "http://example.org/project/00006",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://linked.data.gov.au/org/und",
+        "to": "http://example.org/project/00006",
+        "label": "project lead",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/caepr",
+        "to": "http://example.org/project/00006",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    },
+    {
+        "from": "https://data.idnau.org/pid/org/nulungu",
+        "to": "http://example.org/project/00006",
+        "label": "project participant",
+        "arrows": "to",
+        "color": {
+            "color": "red"
+        }
+    }
+]

@@ -31,7 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://example.org/pid/person/00005>
     a sdo:Person ;
-    sdo:memberOf <https://linked.data.gov.au/org/fses> ;
+    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:name "Mia Sangdren" ;
 .
 

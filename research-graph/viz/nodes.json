@@ -1,0 +1,596 @@
+[
+    {
+        "id": "http://example.com/thesis/1234",
+        "label": "A Community-Integrated, Fuzzy Spatial Model of Tourism Potential on Roebuck Plains Station",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://hdl.handle.net/1885/10851",
+        "label": "The Yawuru language of West Kimberley : a meaning-based description",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://hdl.handle.net/1885/132620",
+        "label": "In pursuit of culturally relevant indicators of Indigenous wellbeing",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://hdl.handle.net/1885/206592",
+        "label": "Indigenous governance, GIS, and the context-driven modelling of values, concerns and seasonal uses of Country within the Yawuru estate",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00001",
+        "label": "Yawuru community household survey",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00002",
+        "label": "Combining the old with the new: aboriginal knowledge and satellite technology address the plight of a threatened species, the Australian Bustard, in the Australian tropical savannas",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00003",
+        "label": "Developing culturally relevant indicators of wellbeing: A Yawuru Example",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00004",
+        "label": "ARC DECRA Title: Who you? Identities and aspirationsof Aboriginal young adults in Broome (Application in 2018 Round) ",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00005",
+        "label": "Serving Our Country: a history of Aboriginal and Torres Strait Islander people in the defence of Australia ",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.org/project/00006",
+        "label": "Public Value and Reciprocal Accountability of Aboriginal Organisations in the Kimberley",
+        "shape": "box",
+        "color": "#C4C0FF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00001",
+        "label": "Statistics for Community Governance: The Yawuru Indigenous Population Survey of Broome",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00002",
+        "label": "Modelling collective Yawuru values along the foreshore of Roebuck Bay, Western Australia using fuzzy logic",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00005",
+        "label": "Australia's north, Australia's future: A vision and strategies for sustainable economic, ecological and social prosperity in northern Australia",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00007",
+        "label": "The meaning of 'One' in Broome, Western Australia: From Yawuru tribe to Rubibi Corporation",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00003",
+        "label": "Data sovereignty for the Yawuru in Western Australia",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00004",
+        "label": "Expressions of Indigenous rights and self-determination from the ground up: A Yawuru example",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "http://example.com/publication/00006",
+        "label": "Mabu liyan: the Yawuru way",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/caepr",
+        "label": "ANU Centre for Aboriginal Economic Policy Research",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/cass",
+        "label": "ANU College of Arts & Social Science",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/cos",
+        "label": "ANU College of Science",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/fses",
+        "label": "Fenner School of Environment & Science",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/ncis",
+        "label": "ANU National Centre for Indigenous Studies",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://linked.data.gov.au/org/anu",
+        "label": "Australian National University",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://linked.data.gov.au/org/und",
+        "label": "University of Notre Dame",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/nulungu",
+        "label": "Nulungu Research Institute",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/kimberleyinstitute",
+        "label": "Kimberley Institute",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/yawuru",
+        "label": "Yawuru",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/dod",
+        "label": "Department of Defence",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/awm",
+        "label": "Australian War Memorial",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/dva",
+        "label": "Department of Veterans' Affairs",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/coap",
+        "label": "ANU College of Asia and the Pacific",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/alfant",
+        "label": "Arnhem Land Fire Abatement Ltd",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/knp",
+        "label": "Kakadu Native Plants Pty Ltd",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/nailsa",
+        "label": "North Australia Indigenous Land & Sea Alliance Ltd",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/cribb",
+        "label": "Julian Cribb & Associates",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://data.idnau.org/pid/org/cnrs",
+        "label": "French National Centre for Scientific Research",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://linked.data.gov.au/org/cdu",
+        "label": "Charles Darwin University",
+        "shape": "triangle",
+        "color": "#F9D1BF",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00001",
+        "label": "John Taylor",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00002",
+        "label": "Bruce Doran",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00003",
+        "label": "Mandy Yap",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00004",
+        "label": "Sandra Potter",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00005",
+        "label": "Mia Sangdren",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00006",
+        "label": "Eunice Yu",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00007",
+        "label": "Kathryn Thorburn",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00008",
+        "label": "Mick Dodson",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00009",
+        "label": "Patrick Sullivan",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00010",
+        "label": "Janet Hunt",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00011",
+        "label": "Julie Lahn",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00012",
+        "label": "Dean Mathews",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00013",
+        "label": "Ian Chambers",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00014",
+        "label": "Jeremy Russell\u2010Smith",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00015",
+        "label": "Robert Costanza",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00016",
+        "label": "Sean Kerins",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00017",
+        "label": "Howard Pedersen",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00018",
+        "label": "Paul Lane",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00019",
+        "label": "Kamaljit K Sangha",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00020",
+        "label": "Jennifer Ansell",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00021",
+        "label": "Peter Christopherson",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00022",
+        "label": "Melissa George",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00023",
+        "label": "Glenn James",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00024",
+        "label": "Julian Cribb",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00025",
+        "label": "Komei Hosokawa",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00026",
+        "label": "Tom Dutton",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00027",
+        "label": "Darrell Tryon",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00028",
+        "label": "Nicholas Biddle",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    },
+    {
+        "id": "https://example.org/pid/person/00029",
+        "label": "Barbara Glowczewski",
+        "shape": "triangle",
+        "color": "#D7C29A",
+        "widthConstraint": {
+            "maximum": 250
+        }
+    }
+]
