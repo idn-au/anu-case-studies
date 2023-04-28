@@ -74,13 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:name "Yawuru" ;
     sdo:url "http://www.yawuru.org.au"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/org/dod>
-    a sdo:Organization ;
-    sdo:name "Department of Defence" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
-    sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
+    sdo:spatial <https://data.idnau.org/pid/ilm/feature/K1> ;
 .
 
 <https://data.idnau.org/pid/org/dod>
