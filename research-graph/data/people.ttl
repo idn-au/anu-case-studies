@@ -25,13 +25,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://example.org/pid/person/00004>
     a sdo:Person ;
     sdo:honorificTitle "PhD Scholar" ;
-    sdo:memberOf <https://data.idnau.org/pid/org/caepr> ;
+    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
     sdo:name "Sandra Potter" ;
 .
 
 <https://example.org/pid/person/00005>
     a sdo:Person ;
-    sdo:memberOf <https://linked.data.gov.au/org/anu> ;
+    sdo:memberOf <https://linked.data.gov.au/org/fses> ;
     sdo:name "Mia Sangdren" ;
 .
 
