@@ -8,6 +8,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:author <https://example.org/pid/person/00005> ;
     sdo:dateCreated "2017-01-01"^^xsd:date ;
     sdo:name "A Community-Integrated, Fuzzy Spatial Model of Tourism Potential on Roebuck Plains Station" ;
+    prov:qualifiedAttribution [
+        prov:agent <https://example.org/pid/person/00002> ;
+        prov:role idnroles:supervisor
+    ] ;
 .
 
 <http://hdl.handle.net/1885/10851>
