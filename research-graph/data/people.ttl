@@ -76,7 +76,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://example.org/pid/person/00012>
     a sdo:Person ;
-    sdo:memberOf <https://data.idnau.org/pid/org/fses> ;
+    sdo:memberOf <https://data.idnau.org/pid/org/yawuru> ;
     sdo:name "Dean Mathews" ;
 .
 
