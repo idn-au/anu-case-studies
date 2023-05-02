@@ -8,13 +8,25 @@
     <style type="text/css">
         #mynetwork {
             width: 100%;
-            height: 1000px;
-            border: 1px solid lightgray;
+            height: 900px;
         }
     </style>
 </head>
-<body>
-<div id="mynetwork"></div>
+<body style="display:grid;">
+<div style="width:200px; grid-column: 1;">
+    <h3>Key</h3>
+    <div style="text-align:center;">
+        <img src="icon-creativework.png" alt="Creative Work Icon" style="max-width:200px;"/>
+        <p>Creative Work</p>
+        <img src="icon-project.png" alt="Project Icon" style="max-width:200px;"/>
+        <p>Project</p>
+        <img src="icon-organisation.png" alt="Organisation Icon" style="max-width:75px;"/>
+        <p>Organisation</p>
+        <img src="icon-person.png" alt="Person Icon" style="max-width:75px;"/>
+        <p>Person</p>
+    </div>
+</div>
+<div id="mynetwork" style="grid-column: 2;"></div>
 
 <script type="text/javascript">
     function readTextFile(file, callback) {
