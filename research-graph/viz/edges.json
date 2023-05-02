@@ -182,8 +182,8 @@
         }
     },
     {
-        "from": "https://example.org/pid/person/00012",
-        "to": "https://data.idnau.org/pid/org/fses",
+        "from": "https://example.org/pid/person/00006",
+        "to": "https://data.idnau.org/pid/org/yawuru",
         "label": "member of",
         "arrows": "to",
         "color": {
@@ -191,7 +191,7 @@
         }
     },
     {
-        "from": "https://example.org/pid/person/00006",
+        "from": "https://example.org/pid/person/00012",
         "to": "https://data.idnau.org/pid/org/yawuru",
         "label": "member of",
         "arrows": "to",
