@@ -18,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Thesis ;
     sdo:author <https://example.org/pid/person/00025> ;
     sdo:dateCreated "1991"^^xsd:gYear ;
-    sdo:name "The Yawuru language of West Kimberley : a meaning-based description" ;
+    sdo:name "The Yawuru language of West Kimberley: a meaning-based description" ;
     prov:qualifiedAttribution [
         prov:agent
             <https://example.org/pid/person/00026> ,
