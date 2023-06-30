@@ -9,7 +9,7 @@ This repo contains a couple of different ANU-specific IDN data collections.
 
 For all issues relating to policy issues about this work, contact:
 
-**Sam Provost** 
+**Sam Provost**  
 <sam.provost@anu.edu.au>
 
 For all technical issues relating to the data and its production, contact:
