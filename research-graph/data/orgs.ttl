@@ -1,4 +1,5 @@
 PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -115,20 +116,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/knp>
     a sdo:Organization ;
     sdo:name "Kakadu Native Plants Pty Ltd" ;
-    sdo:identifier "37 125 747 140"^^adb:abn ;
+    sdo:identifier "37125747140"^^id:ausbn ;
 .
 
 <https://data.idnau.org/pid/org/nailsa>
     a sdo:Organization ;
     sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
-    sdo:identifier "80 149 061 174"^^adb:abn ;
+    sdo:identifier "80 149 061 174"^^id:ausbn ;
     sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/cribb>
     a sdo:Organization ;
     sdo:name "Julian Cribb & Associates" ;
-    sdo:identifier "68 082 652 471"^^adb:abn ;
+    sdo:identifier "68082652471"^^id:ausbn ;
     sdo:url "https://www.juliancribb.net"^^xsd:anyURI ;
 .
 
@@ -137,7 +138,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "French National Centre for Scientific Research" ;
     sdo:alternateName "Centre National de la Recherche Scientifique"@fr ;
     sdo:url "https://www.cnrs.fr/en/cnrs"^^xsd:anyURI ;
-    sdo:identifier "https://ror.org/02feahw73"^^adb:ror ;
+    sdo:identifier "https://ror.org/02feahw73"^^id:ror ;
 .
 
 <https://linked.data.gov.au/org/cdu>
