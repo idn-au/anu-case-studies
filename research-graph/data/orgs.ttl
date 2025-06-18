@@ -1,3 +1,4 @@
+PREFIX aarr: <https://data.idnau.org/pid/vocab/aarr/>
 PREFIX adb: <https://data.idnau.org/pid/adb/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
