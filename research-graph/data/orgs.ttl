@@ -1,5 +1,7 @@
 PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -7,6 +9,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "CAEPR" ;
     sdo:name "ANU Centre for Aboriginal Economic Policy Research" ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/cass>
+        ] ;
     sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
     sdo:url "https://caepr.cass.anu.edu.au"^^xsd:anyURI ;
 .
@@ -15,7 +21,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "CASS" ;
     sdo:name "ANU College of Arts & Social Science" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/anu>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://cass.anu.edu.au"^^xsd:anyURI ;
 .
 
@@ -23,7 +33,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "CoS" ;
     sdo:name "ANU College of Science" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/anu>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://science.anu.edu.au"^^xsd:anyURI ;
 .
 
@@ -31,7 +45,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "FSES" ;
     sdo:name "Fenner School of Environment & Science" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/cos>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/cos> ;
     sdo:url "https://fennerschool.anu.edu.au"^^xsd:anyURI ;
 .
 
@@ -39,7 +57,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "NCIS" ;
     sdo:name "ANU National Centre for Indigenous Studies" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/cass>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/cass> ;
     sdo:url "https://cass.anu.edu.au/study/australian-indigenous-studies"^^xsd:anyURI ;
 .
 
@@ -47,7 +69,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "ANU" ;
     sdo:name "Australian National University" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://anu.edu.au"^^xsd:anyURI ;
 .
 
@@ -61,7 +87,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/nulungu>
     a sdo:Organization ;
     sdo:name "Nulungu Research Institute" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/und> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/und>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/und> ;
     sdo:url "https://www.notredame.edu.au/research/nulungu/home"^^xsd:anyURI ;
 .
 
@@ -81,21 +111,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/dod>
     a sdo:Organization ;
     sdo:name "Department of Defence" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.defence.gov.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/awm>
     a sdo:Organization ;
     sdo:name "Australian War Memorial" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.awm.gov.au"^^xsd:anyURI ;
 .
 
 <https://data.idnau.org/pid/org/dva>
     a sdo:Organization ;
     sdo:name "Department of Veterans' Affairs" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/au>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/au> ;
     sdo:url "https://www.dva.gov.au"^^xsd:anyURI ;
 .
 
@@ -103,7 +145,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Organization ;
     sdo:alternateName "COAP" ;
     sdo:name "ANU College of Asia and the Pacific" ;
-    sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
+    dcat:qualifiedRelation [
+            dcat:hadRole aarr:partOf ;
+            sdo:agent <https://linked.data.gov.au/org/aun>
+        ] ;
+        sdo:parentOrganization <https://linked.data.gov.au/org/anu> ;
     sdo:url "https://asiapacific.anu.edu.au"^^xsd:anyURI ;
 .
 
@@ -122,7 +168,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://data.idnau.org/pid/org/nailsa>
     a sdo:Organization ;
     sdo:name "North Australia Indigenous Land & Sea Alliance Ltd" ;
-    sdo:identifier "80 149 061 174"^^id:ausbn ;
+    sdo:identifier "80149061174"^^id:ausbn ;
     sdo:url "https://nailsma.org.au"^^xsd:anyURI ;
 .
 
