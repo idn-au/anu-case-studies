@@ -1,3 +1,4 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX idnorg: <https://data.idnau.org/pid/org/>
 PREFIX idnrole: <https://data.idnau.org/pid/vocab/idn-role-codes/>
 PREFIX isorole: <http://def.isotc211.org/iso19115/-1/2018/CitationAndResponsiblePartyInformation/code/CI_RoleCode/>
@@ -11,18 +12,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAssociation
         [
             prov:agent <https://example.org/pid/person/00001> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ,
         [
             prov:agent <https://linked.data.gov.au/org/aiatsis> ;
-            prov:hadRole idnrole:projectLead
+            dcat:hadRole idnrole:projectLead
         ] ,
         [
             prov:agent
                 idnorg:caepr ,
                 idnorg:kimberleyinstitute ,
                 idnorg:yawuru ;
-            prov:hadRole idnrole:projectParticipant
+            dcat:hadRole idnrole:projectParticipant
         ] ;
     sdo:endDate "2011"^^xsd:gYear ;
     sdo:name "Yawuru community household survey" ;
@@ -35,15 +36,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAssociation
         [
             prov:agent <https://example.org/pid/person/00002> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ,
         [
             prov:agent <https://linked.data.gov.au/org/anu> ;
-            prov:hadRole idnrole:projectLead
+            dcat:hadRole idnrole:projectLead
         ] ,
         [
             prov:agent <https://linked.data.gov.au/org/anu> ;
-            prov:hadRole idnrole:projectParticipant
+            dcat:hadRole idnrole:projectParticipant
         ] ;
     sdo:endDate "2014-06-30"^^xsd:date ;
     sdo:name "Combining the old with the new: aboriginal knowledge and satellite technology address the plight of a threatened species, the Australian Bustard, in the Australian tropical savannas" ;
@@ -55,7 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:generated <http://example.com/publication/00003> ;
     prov:qualifiedAssociation [
             prov:agent <https://example.org/pid/person/00003> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ;
     sdo:endDate "2016"^^xsd:gYear ;
     sdo:name "Developing culturally relevant indicators of wellbeing: A Yawuru Example" ;
@@ -67,15 +68,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAssociation
         [
             prov:agent idnorg:yawuru ;
-            prov:hadRole idnrole:projectParticipant
+            dcat:hadRole idnrole:projectParticipant
         ] ,
         [
             prov:agent <https://example.org/pid/person/00007> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ,
         [
             prov:agent idnorg:caepr ;
-            prov:hadRole idnrole:projectLead
+            dcat:hadRole idnrole:projectLead
         ] ;
     sdo:endDate "2022"^^xsd:gYear ;
     sdo:name "ARC DECRA Title: Who you? Identities and aspirationsof Aboriginal young adults in Broome (Application in 2018 Round) " ;
@@ -87,11 +88,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAssociation
         [
             prov:agent <https://example.org/pid/person/00008> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ,
         [
             prov:agent <https://linked.data.gov.au/org/anu> ;
-            prov:hadRole idnrole:projectLead
+            dcat:hadRole idnrole:projectLead
         ] ,
         [
             prov:agent
@@ -102,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 <https://linked.data.gov.au/org/aiatsis> ,
                 <https://linked.data.gov.au/org/naa> ,
                 <https://linked.data.gov.au/org/unewcastle> ;
-            prov:hadRole idnrole:projectParticipant
+            dcat:hadRole idnrole:projectParticipant
         ] ;
     sdo:endDate "2017-12-31"^^xsd:date ;
     sdo:name "Serving Our Country: a history of Aboriginal and Torres Strait Islander people in the defence of Australia " ;
@@ -117,19 +118,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 <https://example.org/pid/person/00009> ,
                 <https://example.org/pid/person/00010> ,
                 <https://example.org/pid/person/00011> ;
-            prov:hadRole isorole:principalInvestigator
+            dcat:hadRole isorole:principalInvestigator
         ] ,
         [
             prov:agent
                 <https://linked.data.gov.au/org/anu> ,
                 <https://linked.data.gov.au/org/und> ;
-            prov:hadRole idnrole:projectLead
+            dcat:hadRole idnrole:projectLead
         ] ,
         [
             prov:agent
                 idnorg:caepr ,
                 idnorg:nulungu ;
-            prov:hadRole idnrole:projectParticipant
+            dcat:hadRole idnrole:projectParticipant
         ] ;
     sdo:endDate "2019"^^xsd:gYear ;
     sdo:name "Public Value and Reciprocal Accountability of Aboriginal Organisations in the Kimberley" ;
