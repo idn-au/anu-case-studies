@@ -1,4 +1,5 @@
 PREFIX adb: <https://data.idnau.org/pid/adb/>
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -68,7 +69,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.com/publication/00007>
     a sdo:Article ;
     sdo:author <https://example.org/pid/person/00029> ;
-    sdo:identifier "10.22459/AH.22.2011.12"^^adb:doi ;
+    sdo:identifier "https://doi.org/10.22459/AH.22.2011.12"^^id:doi ;
     sdo:name "The meaning of 'One' in Broome, Western Australia: From Yawuru tribe to Rubibi Corporation" ;
     sdo:dateCreated "1998"^^xsd:gYear ;
 .
