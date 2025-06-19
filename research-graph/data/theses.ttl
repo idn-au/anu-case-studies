@@ -1,5 +1,5 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX idnroles: <https://data.idnau.org/pid/vocab/idn-role-codes/>
+PREFIX datarole: <https://linked.data.gov.au/def/data-roles/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX sdo: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "A Community-Integrated, Fuzzy Spatial Model of Tourism Potential on Roebuck Plains Station" ;
     prov:qualifiedAttribution [
         prov:agent <https://example.org/pid/person/00002> ;
-        dcat:hadRole idnroles:supervisor
+        dcat:hadRole datarole:supervisor
     ] ;
 .
 
@@ -24,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         prov:agent
             <https://example.org/pid/person/00026> ,
             <https://example.org/pid/person/00027> ;
-        dcat:hadRole idnroles:supervisor
+        dcat:hadRole datarole:supervisor
     ] ;
 .
 
@@ -35,7 +35,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "In pursuit of culturally relevant indicators of Indigenous wellbeing" ;
     prov:qualifiedAttribution [
         prov:agent <https://example.org/pid/person/00028> ;
-        dcat:hadRole idnroles:supervisor
+        dcat:hadRole datarole:supervisor
     ] ;
 .
 
@@ -46,6 +46,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sdo:name "Indigenous governance, GIS, and the context-driven modelling of values, concerns and seasonal uses of Country within the Yawuru estate" ;
     prov:qualifiedAttribution [
         prov:agent <https://example.org/pid/person/00002> ;
-        dcat:hadRole idnroles:supervisor
+        dcat:hadRole datarole:supervisor
     ] ;
 .
