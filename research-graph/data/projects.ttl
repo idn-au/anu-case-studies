@@ -10,15 +10,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Project ;
     prov:generated <http://example.com/publication/00001> ;
     prov:qualifiedAssociation
-        [
+        [a prov:Association ;
             prov:agent <https://example.org/pid/person/00001> ;
             dcat:hadRole datarole:principalInvestigator
         ] ,
-        [
+        [a prov:Association ;
             prov:agent <https://linked.data.gov.au/org/aiatsis> ;
             dcat:hadRole datarole:projectLead
         ] ,
-        [
+        [a prov:Association ;
             prov:agent
                 idnorg:caepr ,
                 idnorg:kimberleyinstitute ,
@@ -34,15 +34,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a sdo:Project ;
     prov:generated <http://example.com/publication/00002> ;
     prov:qualifiedAssociation
-        [
+        [a prov:Association ;
             prov:agent <https://example.org/pid/person/00002> ;
             dcat:hadRole datarole:principalInvestigator
         ] ,
-        [
+        [a prov:Association ;
             prov:agent <https://linked.data.gov.au/org/anu> ;
             dcat:hadRole datarole:projectLead
         ] ,
-        [
+        [a prov:Association ;
             prov:agent <https://linked.data.gov.au/org/anu> ;
             dcat:hadRole datarole:projectParticipant
         ] ;
@@ -54,7 +54,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.org/project/00003>
     a sdo:Project ;
     prov:generated <http://example.com/publication/00003> ;
-    prov:qualifiedAssociation [
+    prov:qualifiedAssociation 
+        [a prov:Association ;
             prov:agent <https://example.org/pid/person/00003> ;
             dcat:hadRole datarole:principalInvestigator
         ] ;
@@ -66,15 +67,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.org/project/00004>
     a sdo:Project ;
     prov:qualifiedAssociation
-        [
+        [a prov:Association ;
             prov:agent idnorg:yawuru ;
             dcat:hadRole datarole:projectParticipant
         ] ,
-        [
+        [a prov:Association ;
             prov:agent <https://example.org/pid/person/00007> ;
             dcat:hadRole datarole:principalInvestigator
         ] ,
-        [
+        [a prov:Association ;
             prov:agent idnorg:caepr ;
             dcat:hadRole datarole:projectLead
         ] ;
@@ -86,15 +87,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.org/project/00005>
     a sdo:Project ;
     prov:qualifiedAssociation
-        [
+        [a prov:Association ;
             prov:agent <https://example.org/pid/person/00008> ;
             dcat:hadRole datarole:principalInvestigator
         ] ,
-        [
+        [a prov:Association ;
             prov:agent <https://linked.data.gov.au/org/anu> ;
             dcat:hadRole datarole:projectLead
         ] ,
-        [
+        [a prov:Association ;
             prov:agent
                 idnorg:awm ,
                 idnorg:dod ,
@@ -113,20 +114,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://example.org/project/00006>
     a sdo:Project ;
     prov:qualifiedAssociation
-        [
+        [a prov:Association ;
             prov:agent
                 <https://example.org/pid/person/00009> ,
                 <https://example.org/pid/person/00010> ,
                 <https://example.org/pid/person/00011> ;
             dcat:hadRole datarole:principalInvestigator
         ] ,
-        [
+        [a prov:Association ;
             prov:agent
                 <https://linked.data.gov.au/org/anu> ,
                 <https://linked.data.gov.au/org/und> ;
             dcat:hadRole datarole:projectLead
         ] ,
-        [
+        [a prov:Association ;
             prov:agent
                 idnorg:caepr ,
                 idnorg:nulungu ;
